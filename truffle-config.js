@@ -1,7 +1,7 @@
 var HDWalletProvider = require("truffle-hdwallet-provider");
 var Web3 = require("web3");
 
-var MNEMONIC = "fly unique hurt certain know dinosaur minimum give multiply story service execute";
+var MNEMONIC = "You can add your mnemonic here";
 
 module.exports = {
     networks: {
