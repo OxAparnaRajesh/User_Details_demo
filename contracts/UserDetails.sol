@@ -1,4 +1,3 @@
-
 pragma solidity ^0.4.24;
 
 contract UserDetails {
@@ -18,6 +17,10 @@ contract UserDetails {
         userDetail.dateOfBirth = _dateOfBirth;
         userDetail.age = _age;
         allUsers.push(_address) -1;
+    }
+    
+    function getUser(address _add) view public returns (string,string,uint){
+        return (users[_add].name,users[_add].dateOfBirth,users[_add].age);
     }
     
 }
